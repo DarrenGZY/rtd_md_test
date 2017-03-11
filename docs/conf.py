@@ -30,9 +30,10 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.githubpages',
+    'sphinx.ext.githubpages', 'sphinx.ext.pngmath', 'sphinx.ext.todo', 'breathe'
 ]
-
+breathe_projects = { "nutshell": "../xml"}
+breathe_default_project = "nutshell"
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

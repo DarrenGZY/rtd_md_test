@@ -18,7 +18,7 @@ Contents:
    answer_beni.md
    wiki/Concurrency.md
    ParaEngine
-
+   test.md
 
 Indices and tables
 ==================
